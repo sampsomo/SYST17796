@@ -13,6 +13,7 @@ package studentlist;
 public class Student {
     private String name;
     private int ID;
+    private String DoB;
     
     public Student()
     {
@@ -24,9 +25,11 @@ public class Student {
           this.name = givenName;
           this.ID = givenID;
     }
+    //this method set the value of the name propety
+    //we dont neet to use this because we are using different name 
     public void setName(String givenName)
     {
-       this.name = givenName;
+       name = givenName;
     }
     
     public String getName()
@@ -42,5 +45,19 @@ public class Student {
     public int getID ()
     {   
         return ID;
+    }
+
+    /**
+     * @return the DoB
+     */
+    public String getDoB() {
+        return DoB;
+    }
+
+    /**
+     * @param DoB the DoB to set
+     */
+    public void setDoB(String DoB) {
+        this.DoB = DoB;
     }
 }
