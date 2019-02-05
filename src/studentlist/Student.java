@@ -21,6 +21,7 @@ public class Student {
         name = "Name Not Set";
         ID = 0;
     }
+    //main constractor 
     public Student(String givenName, int givenID)
     {
           this.name = givenName;
@@ -58,7 +59,7 @@ public class Student {
     /**
      * @param DoB the DoB to set
      */
-    public void setDoB(String DoB) {
+    /*public void setDoB(String DoB) {
         this.DoB = DoB;
-    }
+    }*/
 }
