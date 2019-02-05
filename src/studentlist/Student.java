@@ -55,8 +55,7 @@ public class Student {
     public String getDoB() {
         return DoB;
     }
-    public String toString(){
-    return "student";
+    int help;
 }
 
     /**
