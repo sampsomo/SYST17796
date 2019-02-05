@@ -55,17 +55,13 @@ public class Student {
     public String getDoB() {
         return DoB;
     }
-    public String toString(){
-    return "student";
-}
-
+    
     /**
      * @param DoB the DoB to set
      */
-    public String toString(){
-        return "student";
+    
     }
-    /*public void setDoB(String DoB) {
+    public void setDoB(String DoB) {
         this.DoB = DoB;
-    }*/
+    }
 }
