@@ -55,6 +55,9 @@ public class Student {
     public String getDoB() {
         return DoB;
     }
+    public String toString(){
+    return "student";
+}
 
     /**
      * @param DoB the DoB to set
